@@ -1,0 +1,101 @@
+#shopwelcome {
+    padding-left: 20px;
+}
+
+.main {
+    width: 75%;
+    margin: 50px auto;
+    padding: 70px;
+    position: relative;
+    border-radius: 15px;
+    grid-template-columns: 2fr 8fr;
+    -webkit-box-shadow: -30px -17px 70px -19px rgba(0,0,0,0.32);
+    -moz-box-shadow: -30px -17px 70px -19px rgba(0,0,0,0.32);
+    box-shadow: -30px -17px 70px -19px rgba(0,0,0,0.32);
+}
+
+.sidebar {
+    float: left;
+}
+
+.sidebar li {
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+  }
+  
+.grid-item {
+    background-image: url('./img/shoes.png');
+    background-position: center;
+    background-size: cover;
+    height:250px;
+}
+
+.productname {
+    position: relative;
+    left: 5px;
+    top: 170px;
+    font-weight: bold;
+}
+
+.description {
+    position: relative;
+    left: 5px;
+    top: 155px;
+    color: gray;
+}
+
+.price {
+    position: relative;
+    top:145px;
+    left: 190px;
+    font-weight: bold;
+}
+
+.button button {
+    position: relative;
+    top: 130px;
+    left: 180px;
+    color: darkgray;
+    border-radius: 50px;
+    border: solid 1px darkgray;
+    padding: 5px 5px;
+    background: rgba(0,0,0,0)
+}
+
+.fa-star{
+    position: relative;
+    top:10px;
+    left: 215px;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid 1px darkgray;
+    border-radius: 100px;
+    padding: 5px 5px;
+    transition: 0.5s;
+}
+
+#supershoe {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;   
+}
+
+.graylist {
+    color: darkgray;
+}
+
+.all {
+    color: black;
+    text-decoration: underline;
+}
